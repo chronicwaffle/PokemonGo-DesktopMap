@@ -6,6 +6,8 @@
 
 Electron app that bundles the great [PokemonGo-Map](https://github.com/AHAAAAAAA/PokemonGo-Map) project with HTML UI and Python dependencies. Shows live visualization of Pokémon in an area.
 
+Checkout the *new* **Discord**: [<img src="http://vignette3.wikia.nocookie.net/siivagunner/images/9/9f/Discord_icon.svg/revision/latest/scale-to-width-down/50?cb=20160623172043">](https://discord.gg/mV2kCR6)
+
 Getting Started
 ---------------
 
@@ -30,13 +32,25 @@ To run the project, run:
 
     npm start
 
+To make a final build of the project, use grunt:
+
+    grunt win32
+    grunt default
+
 
 Contributing
 ------------
 
-All contributions are welcome. If you would like to improve the map backend, please see the `package` branch on the [PokemonGo-Map](https://github.com/mchristopher/PokemonGo-Map/tree/package) repo.
+All contributions are welcome. If you would like to improve the map backend, please see the [PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map) project.
 
 Licensing
 ---------
 
 This project is licensed under the MIT License.
+
+Binary Python Modules
+---------------------
+ * xxhash
+ * pyproj
+ * Cryptodome
+ 
